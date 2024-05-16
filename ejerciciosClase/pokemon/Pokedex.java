@@ -7,13 +7,10 @@ public class Pokedex {
 
         charmander.atacar();
         squirtle.atacar();
-<<<<<<< HEAD
-=======
 
         // Devolver la información de un Pokemon.
         // Quiero saber el peso de squirtle.
 
         System.out.println("El peso de squirtle " + squirtle.getPeso() + " kilos");
->>>>>>> ce0970170bf18cf9f6bc5598d2237f8548377dab
     }
 }
