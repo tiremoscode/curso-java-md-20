@@ -1,4 +1,4 @@
-package lirio_perez;
+package practicas.pokemon.lirio_perez;
 
 interface TipoPokemon {
     String getTipoPokemon();

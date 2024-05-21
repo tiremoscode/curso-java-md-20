@@ -1,4 +1,4 @@
-package lirio_perez;
+package practicas.pokemon.lirio_perez;
 
 class PokemonPlanta extends Pokemon implements TipoPokemon {
     public PokemonPlanta(String nombre, double estatura, double peso) {

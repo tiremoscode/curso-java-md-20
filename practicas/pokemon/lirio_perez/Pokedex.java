@@ -1,4 +1,4 @@
-package lirio_perez;
+package practicas.pokemon.lirio_perez;
 
 public class Pokedex {
     public static void main(String[] args) {
