@@ -1,6 +1,5 @@
 package ejerciciosClase.pokemon;
 
-interface TipoPokemon{
 interface TipoPokemon {
     String getTipoPokemon();
 }
@@ -16,25 +15,6 @@ class Pokemon {
     private double estatura;
     private double peso;
 
-    public Pokemon(String nombre, double estatura, double peso){
-        this.nombre= nombre;
-        this.estatura= estatura;
-        this.peso = peso;
-    }
-
-    public void atacar(){
-        System.out.println(nombre + " inicia el combate.");
-    }
-
-    public String getNombre(){
-        return nombre;
-    }
-
-    public double getEstatura(){
-        return estatura;
-    }
-
-    public double getPeso(){
     public Pokemon(String nombre, double estatura, double peso) {
         this.nombre = nombre;
         this.estatura = estatura;
@@ -42,7 +22,7 @@ class Pokemon {
     }
 
     public void atacar() {
-        System.out.println(nombre + " inicia el combate");
+        System.out.println(nombre + " inicia el combate.");
     }
 
     public String getNombre() {
