@@ -1,6 +1,6 @@
-package practicas.pokemon.fernanda_lopez;
+package pokemon.fernanda;
 
-public class PokemonVenenoso extends Pokemon implements TipoPokemon {
+class PokemonVenenoso extends Pokemon implements TipoPokemon {
     public PokemonVenenoso(String nombre, double estatura, double peso) {
         super(nombre, estatura, peso);
     }
@@ -13,7 +13,6 @@ public class PokemonVenenoso extends Pokemon implements TipoPokemon {
     @Override
     public void atacar() {
         super.atacar();
-        System.out.println(getNombre() + " lanza Gas Corrosivo!");
+        System.out.println(getNombre() + " lanza ácido!");
     }
-    
 }

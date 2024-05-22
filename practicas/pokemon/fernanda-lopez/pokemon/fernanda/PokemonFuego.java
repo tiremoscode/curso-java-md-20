@@ -1,7 +1,6 @@
-package ejerciciosClase.pokemon;
+package pokemon.fernanda;
 
-public class PokemonFuego extends Pokemon implements TipoPokemon {
-
+class PokemonFuego extends Pokemon implements TipoPokemon {
     public PokemonFuego(String nombre, double estatura, double peso) {
         super(nombre, estatura, peso);
     }

@@ -1,6 +1,6 @@
-package ejerciciosClase.pokemon;
+package pokemon.fernanda;
 
-interface TipoPokemon{
+interface TipoPokemon {
     String getTipoPokemon();
 }
 
@@ -15,27 +15,26 @@ class Pokemon {
     private double estatura;
     private double peso;
 
-    public Pokemon(String nombre, double estatura, double peso){
-        this.nombre= nombre;
-        this.estatura= estatura;
+    public Pokemon(String nombre, double estatura, double peso) {
+        this.nombre = nombre;
+        this.estatura = estatura;
         this.peso = peso;
     }
 
-    public void atacar(){
+    public void atacar() {
         System.out.println(nombre + " inicia el combate.");
     }
 
-    public String getNombre(){
+    public String getNombre() {
         return nombre;
     }
 
-    public double getEstatura(){
+    public double getEstatura() {
         return estatura;
     }
 
-    public double getPeso(){
+    public double getPeso() {
         return peso;
     }
-    
 
 }

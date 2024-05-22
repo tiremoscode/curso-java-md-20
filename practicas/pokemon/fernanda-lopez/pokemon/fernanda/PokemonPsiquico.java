@@ -1,6 +1,6 @@
-package practicas.pokemon.fernanda_lopez;
+package pokemon.fernanda;
 
-public class PokemonPsiquico extends Pokemon implements TipoPokemon{
+class PokemonPsiquico extends Pokemon implements TipoPokemon {
     public PokemonPsiquico(String nombre, double estatura, double peso) {
         super(nombre, estatura, peso);
     }
@@ -13,7 +13,6 @@ public class PokemonPsiquico extends Pokemon implements TipoPokemon{
     @Override
     public void atacar() {
         super.atacar();
-        System.out.println(getNombre() + " lanza Onda Mental!");
+        System.out.println(getNombre() + " utiliza Onda psíquica!");
     }
-    
 }
