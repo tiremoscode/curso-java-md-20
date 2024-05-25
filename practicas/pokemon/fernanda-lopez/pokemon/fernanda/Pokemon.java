@@ -1,4 +1,4 @@
-package ejerciciosClase.pokemon;
+package pokemon.fernanda;
 
 interface TipoPokemon {
     String getTipoPokemon();

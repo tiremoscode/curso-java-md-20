@@ -1,4 +1,4 @@
-package ejerciciosClase.pokemon;
+package practicas.pokemon.militsa_aguirre;
 
 interface TipoPokemon {
     String getTipoPokemon();
@@ -22,7 +22,7 @@ class Pokemon {
     }
 
     public void atacar() {
-        System.out.println(nombre + " inicia el combate.");
+        System.out.println(nombre + " inicia el combate");
     }
 
     public String getNombre() {
