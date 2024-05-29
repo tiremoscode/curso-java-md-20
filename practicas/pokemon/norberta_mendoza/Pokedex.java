@@ -2,7 +2,9 @@ package practicas.pokemon.norberta_mendoza;
 
 public class Pokedex {
     public static void main(String[] args) {
+
         System.out.println("Pokémon: ¡Yo te elijo!");
+
         PokemonFuego charmander = new PokemonFuego("Charmander", 0.6, 8.5);
         
         PokemonAgua squirtle = new PokemonAgua("Squirtle", 0.5, 9.0);
@@ -21,9 +23,6 @@ public class Pokedex {
         dragonite.atacar();
         pikachu.atacar();
         raichu.atacar();
-
-
-        
 
         System.out.println("Información de los Pokémon en combate:");
         System.out.println("El peso de Charmander: " + charmander.getPeso() + " kilos. Su estatura es: " + charmander.getEstatura() + " metros");
