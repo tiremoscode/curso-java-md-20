@@ -59,7 +59,7 @@ CREATE TABLE alumnas (
 9.- Insertar algunos registros
 
 ```sql
-INSERT INTO alumnas (name, email) VALUES
+INSERT INTO alumnas (nombre, edad) VALUES
 ('Magaly Gonzalez', 31),
 ('Lirio Pérez', 21);
 ```
