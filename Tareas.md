@@ -1,8 +1,9 @@
 ## Listado de Tareas
 
-Actualización: 16 Mayo 24
-Fecha limite de entrega: Domingo 2 de junio 2024
+Actualización: 05 Junio 24
+Fecha limite de entrega: Domingo 9 de Junio 2024
 
 - Calculadora Normal
 - Calculadora por Clases (Calculadora, Operaciones).
 - Pokemon (Herencia, Polimorfismo, Interfaces).
+- Menú para archivos
